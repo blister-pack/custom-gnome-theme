@@ -9680,6 +9680,66 @@ window#desktopwindow.background {
 @define-color thumbnail_fg_color #d4be98;
 @define-color shade_color rgba(0, 0, 0, 0.25);
 @define-color scrollbar_outline_color rgba(0, 0, 0, 0.5);
+
+:root {
+  --accent-bg-color: #a9b665;
+  --accent-fg-color: #282828;
+  --accent-color: #a9b665;
+  --destructive-bg-color: #ea6962;
+  --destructive-fg-color: #282828;
+  --destructive-color: #ea6962;
+  --success-bg-color: #a9b665;
+  --success-fg-color: #282828;
+  --success-color: #a9b665;
+  --warning-bg-color: #d8a657;
+  --warning-fg-color: #282828;
+  --warning-color: #d8a657;
+  --error-bg-color: #ea6962;
+  --error-fg-color: #282828;
+  --error-color: #ea6962;
+  --window-bg-color: #282828;
+  --window-fg-color: #d4be98;
+  --view-bg-color: #282828;
+  --view-fg-color: #d4be98;
+  --headerbar-bg-color: #282828;
+  --headerbar-fg-color: #d4be98;
+  --headerbar-border-color: rgba(212, 190, 152, 0.12);
+  --headerbar-backdrop-color: #32302f;
+  --headerbar-shade-color: rgba(0, 0, 0, 0.36);
+  --headerbar-darker-shade-color: rgba(40, 40, 40, 0.75);
+  --sidebar-bg-color: #32302f;
+  --sidebar-fg-color: #d4be98;
+  --sidebar-backdrop-color: #282828;
+  --sidebar-shade-color: rgba(0, 0, 0, 0.25);
+  --sidebar-border-color: rgba(212, 190, 152, 0.08);
+  --secondary-sidebar-bg-color: #282828;
+  --secondary-sidebar-fg-color: #d4be98;
+  --secondary-sidebar-backdrop-color: #282828;
+  --secondary-sidebar-shade-color: rgba(0, 0, 0, 0.25);
+  --secondary-sidebar-border-color: rgba(212, 190, 152, 0.12);
+  --card-bg-color: rgba(212, 190, 152, 0.04);
+  --card-fg-color: #d4be98;
+  --card-shade-color: rgba(0, 0, 0, 0.36);
+  --dialog-bg-color: #32302f;
+  --dialog-fg-color: #d4be98;
+  --popover-bg-color: #282828;
+  --popover-fg-color: #d4be98;
+  --popover-shade-color: rgba(0, 0, 0, 0.25);
+  --thumbnail-bg-color: #3c3836;
+  --thumbnail-fg-color: #d4be98;
+  --shade-color: rgba(0, 0, 0, 0.25);
+  --scrollbar-outline-color: rgba(0, 0, 0, 0.5);
+  --accent-blue: #7daea3;
+  --accent-teal: #7daea3;
+  --accent-green: #a9b665;
+  --accent-yellow: #d8a657;
+  --accent-orange: #e78a4e;
+  --accent-red: #ea6962;
+  --accent-pink: #d3869b;
+  --accent-purple: #d3869b;
+  --accent-slate: #a89984;
+}
+
 /* Public colors from Default */
 @define-color theme_bg_color @window_bg_color;
 @define-color theme_fg_color @window_fg_color;
