@@ -1,0 +1,14 @@
+{
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "[css]": {
+        "editor.formatOnSave": false
+    },
+    "[scss]": {
+        "editor.formatOnSave": false
+    },
+    "[less]": {
+        "editor.formatOnSave": false
+    }
+}
